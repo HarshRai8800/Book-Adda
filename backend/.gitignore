@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+temp/
+.cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Debugging files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional npm cache directory
+.npm/
+
+# Optional yarn cache directory
+.yarn/
+.yarnrc.yml
+
+# Optional lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Lerna debug log
+lerna-debug.log*
+
+# Misc
+*.local
